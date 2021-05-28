@@ -36,8 +36,11 @@ public class MateriaEstudianteController {
     @PostMapping("/guardarMateriaEstudiante")
     public String saveMateriaEstudiante(@RequestBody MateriaEstudiante materiaestudiante) {
         repository.save(materiaestudiante);
-        System.out.println("Se creo nuevo materia con el ID = " + materiaestudiante.getId() + "...");
-        return "Su materia fue agregada: " + materiaestudiante.getId();
+        System.out.println("estos son los datos de materiaEstudiante");
+        System.out.println(materiaestudiante.toString());
+        System.out.println("--------");
+        System.out.println("Se creo nuevo materiaEstudiante con el ID = " + materiaestudiante.getId() + "...");
+        return "Su  materiafue agregada: " + materiaestudiante.getId();
     }
     
     

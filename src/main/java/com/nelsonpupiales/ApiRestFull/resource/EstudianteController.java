@@ -52,7 +52,10 @@ public class EstudianteController {
         
         
         repository.save(estudiante);
-	System.out.println("Se creo nuevo experimento con el ID = " + estudiante.getId()+ "...");
+        System.out.println("estos son los datos de estudiante");
+        System.out.println(estudiante.toString());
+        System.out.println("--------");
+	System.out.println("Se creo nuevo estudiante con el ID = " + estudiante.getId()+ "...");
         return "Experimento agregado con la identificación: " + estudiante.getId();                
     }
     
