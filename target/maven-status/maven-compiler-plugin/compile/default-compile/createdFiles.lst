@@ -1,13 +1,4 @@
-com\nelsonpupiales\ApiRestFull\model\Book.class
-com\nelsonpupiales\ApiRestFull\resource\MateriaController.class
-com\nelsonpupiales\ApiRestFull\repository\MateriaRepository.class
-com\nelsonpupiales\ApiRestFull\resource\TemaController.class
-com\nelsonpupiales\ApiRestFull\ApiRestFullApplication.class
-com\nelsonpupiales\ApiRestFull\resource\DocenteController.class
-com\nelsonpupiales\ApiRestFull\resource\BookController.class
-com\nelsonpupiales\ApiRestFull\model\Docente.class
-com\nelsonpupiales\ApiRestFull\model\Materia.class
-com\nelsonpupiales\ApiRestFull\repository\DocenteRepository.class
-com\nelsonpupiales\ApiRestFull\repository\BookRepository.class
-com\nelsonpupiales\ApiRestFull\repository\TemaRepository.class
-com\nelsonpupiales\ApiRestFull\model\Tema.class
+com\hg\crud\models\ProductDTO.class
+com\hg\crud\controllers\ProductController.class
+com\hg\crud\CrudApplication.class
+com\hg\crud\repositories\IProductDAO.class
